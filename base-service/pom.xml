@@ -6,7 +6,7 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.simplemall.micro.serv.base</groupId>
-  <artifactId>base-serv</artifactId>
+  <artifactId>base-service</artifactId>
   <packaging>pom</packaging>
   <modules>
   	<module>eureka-server</module>
