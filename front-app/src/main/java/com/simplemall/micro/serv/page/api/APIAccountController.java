@@ -37,7 +37,7 @@ import io.swagger.annotations.ApiParam;
  * @author guooo
  *
  */
-@Api(value = "用户服务", tags = "用户服务接口")
+@Api(value = "用户服务", tags = "Account Service")
 @RestController
 @RefreshScope // 使用该注解的类，会在接到SpringCloud配置中心配置刷新的时候，自动将新的配置更新到该类对应的字段中。需要重新触发加载动作可以使用POST方式请求/refresh接口，该接口位于spring-boot-starter-actuator依赖，调用前需添加否则404。
 public class APIAccountController {

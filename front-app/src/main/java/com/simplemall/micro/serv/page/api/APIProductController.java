@@ -17,7 +17,7 @@ import com.simplemall.micro.serv.page.client.ProductFeignClient;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
-@Api(value = "商品服务", tags = "商品服务")
+@Api(value = "商品服务", tags = "Product Service")
 @RestController
 @RequestMapping("/prd")
 public class APIProductController {

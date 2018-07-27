@@ -21,7 +21,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 
-@Api(value = "订单服务", tags = "订单服务接口")
+@Api(value = "订单服务", tags = "Order Service")
 @RestController
 @RequestMapping("/order")
 public class APIOrderController {

@@ -18,7 +18,7 @@ import com.simplemall.micro.serv.common.constant.SystemConstants;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
-@Api(value = "支付服务", tags = "支付服务接口")
+@Api(value = "支付服务", tags = "Pay Service")
 @RestController
 @RequestMapping("/payment")
 public class APIPayMentController {
